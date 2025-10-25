@@ -2,7 +2,7 @@ def binary_search(arr, key, start=0, end=None):
     N = len(arr)
     if N == 1 and arr[0] != key:
         return -1
-    
+
     if end is None:
         end = N
 
