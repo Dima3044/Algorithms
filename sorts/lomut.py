@@ -9,6 +9,7 @@ def lomut_partition(a, left, right):
     a[i], a[right] = a[right], a[i]
     return i
 
+
 def quick_sort_lomut(a, left=0, right=None):
     if right is None:
         right = len(a) - 1
